@@ -12,6 +12,18 @@ html, body {
   height: 100%;
 }
 
+.footer-userInfo {
+  display: flex;
+}
+
+.footer-item{
+  width: 40%;
+  margin-right: 180px;
+}
+.footer-row {
+  display: flex;
+}
+
 .floatleft {
   float: left;
 }
