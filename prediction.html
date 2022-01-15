@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Final year project</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html"><span> CPS</span>Crime Prediction System</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="#">Prediction</a></li>
+          <li><a class="nav-link scrollto" href="login.html">Login</a></li>
+          <li><a href="About.html">About</a></li>
+          
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/4.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown"></h2>
+                <p class="animate__animated animate__fadeInUp"> Crime Against Women</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Prediction</a>
+              </div>
+            </div>
+          </div>
+          <div><h1>hello world safbj</h1></div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/5.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown"></h2>
+                <p class="animate__animated animate__fadeInUp">Crime Against Children</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Prediction</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/6.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+               
+                <p class="animate__animated animate__fadeInUp">IPC Crimes</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Prediction</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <div id="about" class="about-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2>Crime Against Women</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- single-well start-->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="well-left">
+              <div class="single-well">
+                <a href="#">
+                  <img src="assets/img/about/1.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- single-well end-->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="well-middle">
+              
+            <center>
+                <form action="women.html" method="POST">
+              <h4>Select the year, crime type and state of your choice for appropriate predictions:</h4><br>
+              
+              <select name = "Predict_Year" style="padding: 10px;background-color: yellow; text-align: center;">
+                  <option value="2016"><h2>Select Year</h2> </option>
+                  <option value="2017"><h2>2017</h2> </option>
+                  <option value="2018"><h2>2018</h2> </option>
+                  <option value="2019"><h2>2019</h2> </option>
+                  <option value="2020"><h2>2020</h2> </option>
+              </select>
+              <br>
+              
+              <select name = "C_Type" style="padding: 10px;background-color: yellow; text-align: center;">
+                  <option value="RAPE"><h2>Select Crime Type (Default - Rape)</h2> </option>
+                  <option value="RAPE"><h2>RAPE</h2> </option>
+                  <option value="KIDNAPPING & ABDUCTION"><h2>KIDNAPPING & ABDUCTION</h2> </option>
+                  <option value="DOWRY DEATH"><h2>DOWRY DEATH</h2> </option>
+                  <option value="ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY"><h2>ASSAULT ON WOMEN</h2> </option>
+                  <option value="INSULT TO THE MODESTY OF WOMEN"><h2>INSULT TO THE MODESTY OF WOMEN</h2> </option>
+                  <option value="CRUELTY BY HUSBAND OR RELATIVES"><h2>CRUELTY BY HUSBAND OR RELATIVES</h2> </option>
+                  <option value="TOTAL CRIMES AGAINST WOMEN"><h2>TOTAL CRIMES AGAINST WOMEN</h2> </option> 
+              </select>
+              <br>
+              
+              <select name = "state" style="padding: 10px;background-color: yellow; text-align: center;">
+                  <option value="INDIA"><h2>Select States (Default - ALL STATES)</h2> </option>
+                  <option value="INDIA"><h2>ALL STATES</h2> </option>
+                  <option value="Andhra Pradesh"><h2>Andhra Pradesh</h2> </option>
+                  <option value="Arunachal Pradesh"><h2>Arunachal Pradesh</h2> </option>
+                  <option value="Assam"><h2>Assam</h2> </option>
+                  <option value="Bihar"><h2>Bihar</h2> </option>
+                  <option value="Chhattisgarh"><h2>Chhattisgarh</h2> </option>
+                  <option value="Goa"><h2>Goa</h2> </option>
+                  <option value="Gujarat"><h2>Gujarat</h2> </option>
+                  <option value="Haryana"><h2>Haryana</h2> </option>
+                  <option value="Himachal Pradesh"><h2>Himachal Pradesh</h2> </option>
+                  <option value="Jammu & Kashmir"><h2>Jammu & Kashmir</h2> </option>
+                  <option value="Jharkhand"><h2>Jharkhand</h2> </option>
+                  <option value="Karnataka"><h2>Karnataka</h2> </option>
+                  <option value="Kerala"><h2>Kerala</h2> </option>
+                  <option value="Madhya Pradesh"><h2>Madhya Pradesh</h2> </option>
+                  <option value="Maharashtra"><h2>Maharashtra</h2> </option>
+                  <option value="Manipur"><h2>Manipur</h2> </option>
+                  <option value="Meghalaya"><h2>Meghalaya</h2> </option>
+                  <option value="Mizoram"><h2>Mizoram</h2> </option>
+                  <option value="Nagaland"><h2>Nagaland</h2> </option>
+                  <option value="Odisha"><h2>Odisha</h2> </option>
+                  <option value="Punjab"><h2>Punjab</h2> </option>
+                  <option value="Rajasthan"><h2>Rajasthan</h2> </option>
+                  <option value="Sikkim"><h2>Sikkim</h2> </option>
+                  <option value="Tamil Nadu"><h2>Tamil Nadu</h2> </option>
+                  <option value="Tripura"><h2>Tripura</h2> </option>
+                  <option value="Uttar Pradesh"><h2>Uttar Pradesh</h2> </option>
+                  <option value="Uttarakhand"><h2>Uttarakhand</h2> </option>
+                  <option value="West Bengal"><h2>West Bengal</h2> </option>
+                  <option value="A&N Islands"><h2>A&N Islands</h2> </option>
+                  <option value="Chandigarh"><h2>Chandigarh</h2> </option>
+                  <option value="D&N Haveli"><h2>D&N Haveli</h2> </option>
+                  <option value="Daman & Diu"><h2>Daman & Diu</h2> </option>
+                  <option value="Delhi UT"><h2>Delhi UT</h2> </option>
+                  <option value="Lakshadweep"><h2>Lakshadweep</h2> </option>
+                  <option value="Puducherry"><h2>Puducherry</h2> </option>
+
+                  </select>
+
+                <br>
+                <input type="submit" value="Submit">
+              </form>
+      </center>   
+          </div>
+          </div>
+          <!-- End col-->
+          <div id="about" class="about-area area-padding">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="section-headline text-center">
+                <h2>Crime Agianst Children</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- single-well start-->
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="well-left">
+                <div class="single-well">
+                  <a href="#">
+                    <img src="assets/img/about/2.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- single-well end-->
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="well-middle">
+                <div class="single-well">
+                    <center>
+                        <form action="children.html" method="POST">
+                                <h4>Select the year, crime type and state of your choice for appropriate predictions:</h4><br>
+
+                      <select name = "Predict_Year" style="padding: 10px;background-color: yellow; text-align: center;">
+                        <option value="2016"><h2>Select Year</h2> </option>
+                        <option value="2017"><h2>2017</h2> </option>
+                        <option value="2018"><h2>2018</h2> </option>
+                        <option value="2019"><h2>2019</h2> </option>
+                        <option value="2020"><h2>2020</h2> </option>                              
+                    </select>
+                    <br>
+                    
+                    <select name = "C_Type" style="padding: 10px;background-color: yellow; text-align: center;">
+                        <option value="INFANTICIDE"><h2>Select Crime Type (Default - INFANTICIDE)</h2> </option>
+                        <option value="RAPE"><h2>RAPE</h2> </option>
+                        <option value="KIDNAPPING & ABDUCTION"><h2>KIDNAPPING & ABDUCTION</h2> </option>    
+                        <option value="FOETICIDE"><h2>FOETICIDE</h2> </option>
+                        <option value="ABETMENT OF SUICIDE"><h2>ABETMENT OF SUICIDE</h2> </option>
+                        <option value="EXPOSURE & ABANDONMENT"><h2>EXPOSURE & ABANDONMENT</h2> </option>
+                        <option value="PROCURATION OF MINOR GIRLS"><h2>PROCURATION OF MINOR GIRLS</h2> </option>
+                        <option value="BUYING OF GIRLS FOR PROSTITUTION"><h2>BUYING OF GIRLS FOR PROSTITUTION</h2> </option>
+                        <option value="SELLING OF GIRLS FOR PROSTITUTION"><h2>SELLING OF GIRLS FOR PROSTITUTION</h2> </option>
+                        <option value="PROHIBITION OF CHILD MARRIAGE ACT, 2006"><h2>PROHIBITION OF CHILD MARRIAGE ACT, 2006</h2> </option>
+                        <option value="TOTAL CRIMES AGAINST CHILDREN"><h2>TOTAL CRIMES AGAINST CHILDREN</h2> </option>
+                    </select>
+                    <br>
+                    <select name = "state" style="padding: 10px;background-color: yellow; text-align: center;">
+                        <option value="INDIA"><h2>Select States (Default - ALL STATES)</h2> </option>
+                        <option value="INDIA"><h2>ALL STATES</h2> </option>
+                        <option value="Andhra Pradesh"><h2>Andhra Pradesh</h2> </option>
+                        <option value="Arunachal Pradesh"><h2>Arunachal Pradesh</h2> </option>
+                        <option value="Assam"><h2>Assam</h2> </option>
+                        <option value="Bihar"><h2>Bihar</h2> </option>
+                        <option value="Chhattisgarh"><h2>Chhattisgarh</h2> </option>
+                        <option value="Goa"><h2>Goa</h2> </option>
+                        <option value="Gujarat"><h2>Gujarat</h2> </option>
+                        <option value="Haryana"><h2>Haryana</h2> </option>
+                        <option value="Himachal Pradesh"><h2>Himachal Pradesh</h2> </option>
+                        <option value="Jammu & Kashmir"><h2>Jammu & Kashmir</h2> </option>
+                        <option value="Jharkhand"><h2>Jharkhand</h2> </option>
+                        <option value="Karnataka"><h2>Karnataka</h2> </option>
+                        <option value="Kerala"><h2>Kerala</h2> </option>
+                        <option value="Madhya Pradesh"><h2>Madhya Pradesh</h2> </option>
+                        <option value="Maharashtra"><h2>Maharashtra</h2> </option>
+                        <option value="Manipur"><h2>Manipur</h2> </option>
+                        <option value="Meghalaya"><h2>Meghalaya</h2> </option>
+                        <option value="Mizoram"><h2>Mizoram</h2> </option>
+                        <option value="Nagaland"><h2>Nagaland</h2> </option>
+                        <option value="Odisha"><h2>Odisha</h2> </option>
+                        <option value="Punjab"><h2>Punjab</h2> </option>
+                        <option value="Rajasthan"><h2>Rajasthan</h2> </option>
+                        <option value="Sikkim"><h2>Sikkim</h2> </option>
+                        <option value="Tamil Nadu"><h2>Tamil Nadu</h2> </option>
+                        <option value="Tripura"><h2>Tripura</h2> </option>
+                        <option value="Uttar Pradesh"><h2>Uttar Pradesh</h2> </option>
+                        <option value="Uttarakhand"><h2>Uttarakhand</h2> </option>
+                        <option value="West Bengal"><h2>West Bengal</h2> </option>
+                        <option value="A&N Islands"><h2>A&N Islands</h2> </option>
+                        <option value="Chandigarh"><h2>Chandigarh</h2> </option>
+                        <option value="D&N Haveli"><h2>D&N Haveli</h2> </option>
+                        <option value="Daman & Diu"><h2>Daman & Diu</h2> </option>
+                        <option value="Delhi UT"><h2>Delhi UT</h2> </option>
+                        <option value="Lakshadweep"><h2>Lakshadweep</h2> </option>
+                        <option value="Puducherry"><h2>Puducherry</h2> </option>
+                    </select>
+                    <br>
+
+                        <input type="submit" value="Submit">
+                      </form>
+              </center>    
+              </div>
+            </div>
+            </div>
+            <div id="about" class="about-area area-padding">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-headline text-center">
+                  <h2>IPC Crimes</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <!-- single-well start-->
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="well-left">
+                  <div class="single-well">
+                    <a href="#">
+                      <img src="assets/img/about/3.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- single-well end-->
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="well-middle">
+                  <div class="single-well">
+                    <center>
+                        <form action="ipc.html" method="POST">
+                              <h4>Select the year, crime type and state of your choice for appropriate predictions:</h4><br>
+
+                        <select name = "Predict_Year" style="padding: 10px; background-color: yellow;">
+                          <option value="2016"><h2>Select Year</h2> </option>
+                          <option value="2017"><h2>2017</h2> </option>
+                          <option value="2018"><h2>2018</h2> </option>
+                          <option value="2019"><h2>2019</h2> </option>
+                          <option value="2020"><h2>2020</h2> </option>
+                        </select>
+                        <br>
+
+                      <select name = "C_Type" style=" padding-left:20px;padding:10px;background-color: yellow;text-align: center;">
+                          <option value="MURDER"><h2>Select Crime Type (Default - MURDER)</h2> </option>
+                          <option value="MURDER"><h2>MURDER</h2> </option>
+                          <option value="ATTEMPT TO COMMIT MURDER"><h2>ATTEMPT TO COMMIT MURDER</h2> </option>
+                          <option value="C.H. NOT AMOUNTING TO MURDER"><h2>CULPABLE HOMICIDE NOT AMOUNTING TO MURDER</h2> </option>
+                          <option value="RAPE"><h2>RAPE</h2> </option>
+                          <option value="KIDNAPPING and ABDUCTION"><h2>KIDNAPPING & ABDUCTION</h2> </option>
+                          <option value="DACOITY"><h2>DACOITY</h2> </option>
+                          <option value="PREPARATION AND ASSEMBLY FOR DACOITY"><h2>PREPARATION & ASSEMBLY FOR DACOITY</h2> </option>
+                          <option value="ROBBERY"><h2>ROBBERY</h2> </option>
+                          <option value="BURGLARY"><h2>BURGLARY</h2> </option>
+                          <option value="THEFT"><h2>THEFT</h2> </option>
+                          <option value="RIOTS"><h2>RIOTS</h2> </option>
+                          <option value="CRIMINAL BREACH OF TRUST"><h2>CRIMINAL BREACH OF TRUST</h2> </option>
+                          <option value="CHEATING"><h2>CHEATING</h2> </option>
+                          <option value="COUNTERFEITING"><h2>COUNTERFEITING</h2> </option>
+                          <option value="ARSON"><h2>ARSON</h2> </option>
+                          <option value="HURT/GREVIOUS HURT"><h2>HURT/GREVIOUS HURT</h2> </option>
+                          <option value="DOWRY"><h2>DOWRY</h2> </option>
+                          <option value="ASSAULT ON WOMEN"><h2>ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY</h2> </option>
+                          <option value="INSULT TO THE MODESTY OF WOMEN"><h2>INSULT TO THE MODESTY OF WOMEN</h2> </option>
+                          <option value="CRUELTY BY HUSBAND OR HIS RELATIVES"><h2>CRUELTY BY HUSBAND OR HIS RELATIVES</h2> </option>
+                          <option value="CAUSING DEATH BY NEGLIGENCE"><h2>CAUSING DEATH BY NEGLIGENCE</h2> </option>
+                          <option value="OTHER IPC CRIMES"><h2>OTHER IPC CRIMES</h2> </option>    
+                          <option value="TOTAL IPC CRIMES"><h2>TOTAL IPC CRIMES</h2> </option> 
+                      </select>
+                      <br>
+
+                      <select name = "state" style="padding: 10px;background-color: yellow; text-align: center;">
+                          <option value="INDIA"><h2>Select States (Default - ALL STATES)</h2> </option>
+                          <option value="INDIA"><h2>ALL STATES</h2> </option>
+                          <option value="Andhra Pradesh"><h2>Andhra Pradesh</h2> </option>
+                          <option value="Arunachal Pradesh"><h2>Arunachal Pradesh</h2> </option>
+                          <option value="Assam"><h2>Assam</h2> </option>
+                          <option value="Bihar"><h2>Bihar</h2> </option>
+                          <option value="Chhattisgarh"><h2>Chhattisgarh</h2> </option>
+                          <option value="Goa"><h2>Goa</h2> </option>
+                          <option value="Gujarat"><h2>Gujarat</h2> </option>
+                          <option value="Haryana"><h2>Haryana</h2> </option>
+                          <option value="Himachal Pradesh"><h2>Himachal Pradesh</h2> </option>
+                          <option value="Jammu & Kashmir"><h2>Jammu & Kashmir</h2> </option>
+                          <option value="Jharkhand"><h2>Jharkhand</h2> </option>
+                          <option value="Karnataka"><h2>Karnataka</h2> </option>
+                          <option value="Kerala"><h2>Kerala</h2> </option>
+                          <option value="Madhya Pradesh"><h2>Madhya Pradesh</h2> </option>
+                          <option value="Maharashtra"><h2>Maharashtra</h2> </option>
+                          <option value="Manipur"><h2>Manipur</h2> </option>
+                          <option value="Meghalaya"><h2>Meghalaya</h2> </option>
+                          <option value="Mizoram"><h2>Mizoram</h2> </option>
+                          <option value="Nagaland"><h2>Nagaland</h2> </option>
+                          <option value="Odisha"><h2>Odisha</h2> </option>
+                          <option value="Punjab"><h2>Punjab</h2> </option>
+                          <option value="Rajasthan"><h2>Rajasthan</h2> </option>
+                          <option value="Sikkim"><h2>Sikkim</h2> </option>
+                          <option value="Tamil Nadu"><h2>Tamil Nadu</h2> </option>
+                          <option value="Tripura"><h2>Tripura</h2> </option>
+                          <option value="Uttar Pradesh"><h2>Uttar Pradesh</h2> </option>
+                          <option value="Uttarakhand"><h2>Uttarakhand</h2> </option>
+                          <option value="West Bengal"><h2>West Bengal</h2> </option>
+                          <option value="A&N Islands"><h2>A&N Islands</h2> </option>
+                          <option value="Chandigarh"><h2>Chandigarh</h2> </option>
+                          <option value="D&N Haveli"><h2>D&N Haveli</h2> </option>
+                          <option value="Daman & Diu"><h2>Daman & Diu</h2> </option>
+                          <option value="Delhi"><h2>Delhi UT</h2> </option>
+                          <option value="Lakshadweep"><h2>Lakshadweep</h2> </option>
+                          <option value="Puducherry"><h2>Puducherry</h2> </option>
+                          </select>
+                          <br style="padding-top: 15px;">
+                          <input type="submit" ; value="Submit">
+                        </form>
+                </center>     
+          </section>
+      
+           
+        </div>
+      </div>
+    </div>
+  </div><!-- End About Section -->
+
+
+
+   
+    
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2><span>CPS</span>Crime Prediction system</h2>
+                </div>
+
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </p>
+                <div class="footer-contacts">
+                  <p><span>Tel:</span> 9845635602</p>
+                  <p><span>Email:</span> fysssy@gmail.com</p>
+                  <p><span>Working Hours:</span> 9am-5pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>Instagram</h4>
+                <div class="flicker-img">
+                  <a href="#"><img src="assets/img/portfolio/1.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/2.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/3.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/4.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/5.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/6.jpg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                &copy; Copyright <strong>FY-SSSY</strong>. All Rights Reserved
+              </p>
+            </div>
+            <div class="credits">
+             
+              Designed by <a href="#">FY-SSSY</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
